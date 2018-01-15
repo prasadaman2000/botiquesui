@@ -1,0 +1,533 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.sale{
+    font-size: 20px;
+    color: #f4cd41;
+    font-family: arial;
+}
+
+.price{
+    font-size: 20px;
+    font-family: arial;
+    text-decoration: line-through;
+}
+
+.desc,.size, .buy{
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.smallHor{
+    width: 8%;
+}
+
+#page_top{
+    transform: translateY(-60%);
+}
+
+.topLogo{
+    display: inline-block;
+    width: 10%;
+}
+
+.whyShopP{
+    position: absolute;
+    left: 20%;
+    font-family: arial;
+}
+
+.social{
+    position: absolute;
+    top: 700%;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#title-div{
+    display: inline-block;
+}
+
+#mainLogo{
+    width: 50%;
+    transform:translateX(50%);
+}
+
+#elle{
+    padding-left: 1%;
+    transform: translateY(40%);
+}
+
+#lifestyle{
+    transform: translateY(20%);
+}
+
+#seenIn{
+    padding-left: 10%;
+    font-family: arial;
+}
+
+#introPage{
+    background-image: url(images/PaxtonPic.png), url(images/Gray-gradient-background.jpg);
+    background-repeat: no-repeat;
+    padding-right: 10%;    
+    height: 750px;
+}
+
+#rhetoricalQuestion{
+    color: white;
+    padding-left: 40%;
+    transform: translateY(850%);
+}
+
+.invest{
+    color: white;
+    font-size: 50px;
+    padding-left: 40%;
+    transform: translateY(200%);
+    font-family: arial;
+}
+
+.select{
+    background-color: #333538;
+    border: 0;
+    border-style: solid;
+    height: 50px;
+    width: 20%;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    transform: translate(200%, 100%);
+}
+
+.select:hover{
+    background-color: #898d93;
+}
+
+.select:focus{
+    outline: none;
+}
+
+#section2{
+    display: flex;
+    overflow: hidden;
+}
+
+#2a{
+    flex: 1;
+    display: inline-block;
+}
+
+#2b{
+    flex: 2;
+    display: inline-block;
+    width: 10%;
+    background: red;
+}
+
+#bg2a{
+    position: absolute;
+    top: 1250px;
+    left: 60px;
+    background-image: url(images/graciemainpic_preview.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.2;
+    width: 400px;
+    height: 570px;
+}
+
+#art{
+    width: 400px;
+    font-size: 300%;
+    transform: translateX(40%);
+    font-weight: bold;
+}
+
+.artOfDressing{
+    width: 500px;
+    transform: translateX(80%);
+    font-size: 20px;
+}
+
+#freeVIP{
+    font-weight: bold;
+    transform: translate(71.4%, 200%);
+    font-family: arial;
+}
+
+#percentOff{
+    color: #a59435;
+    transform: translate(71%, 200%);
+    font-size: 20px;
+    font-family: arial;
+}
+
+.in{
+    border-color: black;
+    border-width: 0 0 1px 0;
+}
+
+.in:focus{
+    outline: none;
+}
+
+#fName{
+    transform: translateX(233.1%);
+    width: 200px;
+}
+
+#email{
+    transform: translate(131%, 238%);
+    width: 200px;
+}
+
+#infoEnterPrompt{
+    font-weight: bold;
+    transform: translateX(72.5%);
+}
+
+#signUp{
+    transform: translate(29%, 200%);
+    width: 200px;
+}
+
+#text2b{
+    width: 300px;
+    transform: translate(100%, 400%);
+    text-align: center;
+}
+
+#linback{
+    width: 400px;
+    transform: translate(100%, 10%)
+}
+
+#bg2b{
+    border: 0;
+    position: absolute;
+    top: 1200px;
+    left: 1000px;
+    height: 600px;
+    width: 400px;
+    background: gray;
+    opacity: 0.1;
+}
+
+#section3{
+    height: 50px;
+    width: 100%;
+    background-color: #333538;
+}
+
+#sec3p{
+    color: white;
+    transform: translateY(15px);
+    text-align: center;
+}
+
+#lName{
+    position: absolute;
+    top: 290%;
+    left: 40%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#lPrice{
+    position: absolute;
+    left: 40%;
+    top: 300%;
+    
+}
+
+#lSale{
+    position: absolute;
+    left: 47%;
+    top: 300%;
+}
+
+#lDesc{
+    position: absolute;
+    top: 307%;
+    left: 40%;
+}
+
+#lSize{
+    position: absolute;
+    top: 312%;
+    left: 40%;
+}
+
+#laraP1{
+    position: absolute;
+    width: 20%;
+    top: 300%;
+    left: 15%;
+}
+    
+#laraP3{
+    position: absolute;
+    width: 15%;
+    top: 320%;
+    left: 35%;
+}
+
+#laraP2{
+    position: absolute;
+    left: 60%;
+    width: 20%;
+}
+
+#lBuy{
+    position: absolute;
+    font-weight: bold;
+    top: 350%;
+    left: 55%;
+}
+
+#laraHor{
+    position: absolute;
+    top: 352%;
+    left: 60%;
+}
+
+#laraEndH{
+    position: absolute;
+    top: 390%;
+    left: 0%;
+    color: black;
+    width: 100%;
+}
+
+#sName{
+    position: absolute;
+    top: 400%;
+    left: 45%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#sPrice{
+    position: absolute;
+    left: 45%;
+    top: 412%;
+}
+
+#sSale{
+    position: absolute;
+    left: 52%;
+    top: 412%;
+}
+
+#sDesc{
+    position: absolute;
+    left: 45%;
+    top: 420%;
+}
+
+#sSize{
+    position: absolute;
+    left: 45%;
+    top: 425%;
+}
+
+#solP1{
+    position: absolute;
+    width: 25%;
+    left: 10%;
+    top: 400%;
+}
+
+#solP3{
+    position: absolute;
+    width: 20%;
+    left: 65%;
+    top: 400%;
+}
+
+#sBuy{
+    position: absolute;
+    left: 50%;
+    top: 440%;
+}
+
+#solP2{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 450%;
+}
+
+#solHor{
+    position: absolute;
+    left: 55%;
+    top: 442%;
+}
+
+#bracelet{
+    position: absolute;
+    width: 20%;
+    top: 525%;
+    left: 15%;
+}
+
+#paxton2{
+    position: absolute;
+    width: 15%;
+    top: 535%;
+    left: 33%;
+}
+
+#arista{
+    position: absolute;
+    width: 15%;
+    top: 540%;
+    left: 50%;
+}
+
+#gracie{
+    position: absolute;
+    width: 20%;
+    top: 525%;
+    left: 65%;
+}
+
+#shopCollection{
+    position: absolute;
+    top: 585%;
+    left: 15%;
+}
+
+#shopHor{
+    position: absolute;
+    width: 10%;
+    top: 587%;
+    left: 27%;
+}
+
+#whyShop{
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    top: 610%;
+    left: 10%;
+}
+
+#shop1{
+    top: 630%;
+}
+
+#shop2{
+    top: 633%;
+}
+#shop3{
+    top: 636%;
+}
+
+#shop4{
+    top: 639%;
+}
+
+#shop5{
+    top: 642%;
+}
+
+#shop6{
+    top: 645%;
+}
+
+#shop7{
+    top: 648%;
+}
+
+#shop8{
+    top: 651%;
+}
+
+#shop9{
+    top: 664%;
+    font-weight: bold;
+}
+
+#shop10{
+    top: 667%;
+    font-weight: bold;
+}
+
+#shop11{
+    top: 670%;
+    font-weight: bold;
+}
+
+#shop12{
+    top: 673%;
+}
+
+#shop13{
+    top: 676%;
+}
+
+#selectYours{
+    position: absolute;
+    top: 657%;
+    left: 20%;
+    font-size: 20px;
+    font-family: arial;
+    color: #f4cd41;
+}
+
+#dex{
+    position: absolute;
+    width: 30%;
+    top: 615%;
+    left: 50%;
+}
+
+#fb{
+    left: 20%;
+}
+
+#twitter{
+    left: 25%;
+}
+
+#pin{
+    left: 29%;
+}
+
+#insta{
+    left: 34%;
+}
+
+#copyright{
+    position: absolute;
+    color: #9a9fa8;
+    top: 720%;
+    left: 40%;
+}
+
+#credits{
+    position: absolute;
+    color: #9a9fa8;
+    top: 725%;
+    left: 40%;
+    font-family: arial;
+}
+
+#endGray{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: gray;
+    border: 0;
+    opacity: 0.2;
+    top: 690%;
+}
